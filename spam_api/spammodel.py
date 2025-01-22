@@ -4,8 +4,8 @@ import nltk
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 
-
-df = pd.read_csv('C:/Users/sko98/Downloads/archive (3)/spam_ham_dataset.csv')
+# use your file path of csv file
+df = pd.read_csv('C:/Users/sko98/Downloads/archive (3)/spam_ham_dataset.csv')  
 
 
 
